@@ -18,3 +18,12 @@ C:\Users\Freeware Sys\Documents\Visual Studio 2015\Projects\f181217009\Interface
 C:\Users\Freeware Sys\Documents\Visual Studio 2015\Projects\f181217009\Interface\obj\Debug\Interface.Properties.Resources.resources
 C:\Users\Freeware Sys\Documents\Visual Studio 2015\Projects\f181217009\Interface\obj\Debug\Interface.csproj.GenerateResource.Cache
 C:\Users\Freeware Sys\Documents\Visual Studio 2015\Projects\f181217009\Interface\obj\Debug\Interface.csprojResolveAssemblyReference.cache
+C:\Users\Freeware Sys\Desktop\f181217009\Interface\bin\Debug\Interface.exe.config
+C:\Users\Freeware Sys\Desktop\f181217009\Interface\obj\Debug\Interface.exe
+C:\Users\Freeware Sys\Desktop\f181217009\Interface\obj\Debug\Interface.pdb
+C:\Users\Freeware Sys\Desktop\f181217009\Interface\bin\Debug\Interface.exe
+C:\Users\Freeware Sys\Desktop\f181217009\Interface\bin\Debug\Interface.pdb
+C:\Users\Freeware Sys\Desktop\f181217009\Interface\obj\Debug\Interface.csprojResolveAssemblyReference.cache
+C:\Users\Freeware Sys\Desktop\f181217009\Interface\obj\Debug\Interface.Form1.resources
+C:\Users\Freeware Sys\Desktop\f181217009\Interface\obj\Debug\Interface.Properties.Resources.resources
+C:\Users\Freeware Sys\Desktop\f181217009\Interface\obj\Debug\Interface.csproj.GenerateResource.Cache

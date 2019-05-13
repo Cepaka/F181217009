@@ -40,7 +40,7 @@ namespace TextFile
 
             string pathOutput = "1";
             string dirOutput = "1";
-            if (File.Exists(@"C:\Users\Freeware Sys\Documents\Visual Studio 2015\Projects\f181217009\Interface\bin\Debug\pathOutput.txt"))
+            if (File.Exists(Directory.GetCurrentDirectory()+@"\pathOutput.txt"))
             {
                 StreamReader sr = new StreamReader("pathOutput.txt");
                 pathOutput = sr.ReadLine();
@@ -63,15 +63,15 @@ namespace TextFile
             }
             if (args[0] == "-gt")
             {
-                D1.Class1.Generate(100, 0, 100, @"C:\Users\Freeware Sys\Documents\Visual Studio 2015\Projects\f181217009\Interface\bin\Debug\generated.txt");
+                D1.Class1.Generate(100, 0, 99, Directory.GetCurrentDirectory()+@"\generated.txt");
             }
             if (args[0] == "-st")
             {
-                D1.Class1.Sort(@"C:\Users\Freeware Sys\Documents\Visual Studio 2015\Projects\f181217009\Interface\bin\Debug\generated.txt", @"C:\Users\Freeware Sys\Documents\Visual Studio 2015\Projects\f181217009\Interface\bin\Debug\");
+                D1.Class1.Sort(Directory.GetCurrentDirectory() + @"\generated.txt", Directory.GetCurrentDirectory() + @"\");
             }
             if (args[0] == "-vt")
             {
-                View(@"C:\Users\Freeware Sys\Documents\Visual Studio 2015\Projects\f181217009\Interface\bin\Debug\generated.txt", @"C:\Users\Freeware Sys\Documents\Visual Studio 2015\Projects\f181217009\Interface\bin\Debug\");
+                View(Directory.GetCurrentDirectory() + @"\generated.txt", Directory.GetCurrentDirectory() + @"\");
             }
         }
     }

@@ -4,3 +4,7 @@ C:\Users\Freeware Sys\Documents\Visual Studio 2015\Projects\f181217009\D1\obj\De
 C:\Users\Freeware Sys\Documents\Visual Studio 2015\Projects\f181217009\D1\obj\Debug\D1.pdb
 C:\Users\Freeware Sys\Documents\Visual Studio 2015\Projects\f181217009\Interface\bin\Debug\D1.dll
 C:\Users\Freeware Sys\Documents\Visual Studio 2015\Projects\f181217009\Interface\bin\Debug\D1.pdb
+C:\Users\Freeware Sys\Desktop\f181217009\Interface\bin\Debug\D1.dll
+C:\Users\Freeware Sys\Desktop\f181217009\Interface\bin\Debug\D1.pdb
+C:\Users\Freeware Sys\Desktop\f181217009\D1\obj\Debug\D1.dll
+C:\Users\Freeware Sys\Desktop\f181217009\D1\obj\Debug\D1.pdb
