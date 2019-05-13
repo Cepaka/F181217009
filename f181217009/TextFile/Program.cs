@@ -33,7 +33,6 @@ namespace TextFile
                     Console.WriteLine("{0} " + "           " + "{1}", unsorted[i], sorted[i]);
                 }
             }
-            Console.WriteLine("press ESC");
             Console.ReadKey();
         }
         static void Main(string[] args)
@@ -41,23 +40,38 @@ namespace TextFile
 
             string pathOutput = "1";
             string dirOutput = "1";
-            StreamReader sr = new StreamReader("pathOutput.txt");
-            pathOutput = sr.ReadLine();
-            sr.Close();
-            StreamReader dr = new StreamReader("dirOutput.txt");
-            dirOutput = dr.ReadLine();
-            dr.Close();
-            if (args[0] == "-g")
+            if (File.Exists(@"C:\Users\Freeware Sys\Documents\Visual Studio 2015\Projects\f181217009\Interface\bin\Debug\pathOutput.txt"))
             {
-                D1.Class1.Generate(int.Parse(args[1]), int.Parse(args[2]), int.Parse(args[3]), pathOutput);
+                StreamReader sr = new StreamReader("pathOutput.txt");
+                pathOutput = sr.ReadLine();
+                sr.Close();
+                StreamReader dr = new StreamReader("dirOutput.txt");
+                dirOutput = dr.ReadLine();
+                dr.Close();
+                if (args[0] == "-g")
+                {
+                    D1.Class1.Generate(int.Parse(args[1]), int.Parse(args[2]), int.Parse(args[3]), pathOutput);
+                }
+                if (args[0] == "-s")
+                {
+                    D1.Class1.Sort(pathOutput, dirOutput);
+                }
+                if (args[0] == "-v")
+                {
+                    View(pathOutput, dirOutput);
+                }
             }
-            if (args[0] == "-s")
+            if (args[0] == "-gt")
             {
-                D1.Class1.Sort(pathOutput, dirOutput);
+                D1.Class1.Generate(100, 0, 100, @"C:\Users\Freeware Sys\Documents\Visual Studio 2015\Projects\f181217009\Interface\bin\Debug\generated.txt");
             }
-            if (args[0] == "-v")
+            if (args[0] == "-st")
             {
-                View(pathOutput, dirOutput);
+                D1.Class1.Sort(@"C:\Users\Freeware Sys\Documents\Visual Studio 2015\Projects\f181217009\Interface\bin\Debug\generated.txt", @"C:\Users\Freeware Sys\Documents\Visual Studio 2015\Projects\f181217009\Interface\bin\Debug\");
+            }
+            if (args[0] == "-vt")
+            {
+                View(@"C:\Users\Freeware Sys\Documents\Visual Studio 2015\Projects\f181217009\Interface\bin\Debug\generated.txt", @"C:\Users\Freeware Sys\Documents\Visual Studio 2015\Projects\f181217009\Interface\bin\Debug\");
             }
         }
     }

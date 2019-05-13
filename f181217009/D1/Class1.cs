@@ -20,7 +20,6 @@ namespace D1
                 number = r.Next(minValue, maxValue + 1);
                 File1.WriteLine(number);
             }
-            File1.Flush();
             File1.Close();
         }
         public static void Sort(string pathOutput, string dirOutput)
